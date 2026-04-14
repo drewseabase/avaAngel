@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ava Angel — Personal Statement</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .statement-card {
+            background: var(--warm-white);
+            border: 1px solid var(--divider);
+            border-radius: 10px;
+            padding: 24px 28px;
+            margin-bottom: 20px;
+            max-width: 680px;
+        }
+
+        .statement-card-label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .statement-card-label i {
+            font-size: 13px;
+            color: var(--gold-accent);
+            width: 28px;
+            height: 28px;
+            background: rgba(196, 169, 125, 0.12);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .statement-card-label span {
+            font-family: var(--font-display);
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            letter-spacing: 0.01em;
+        }
+
+        .statement-card p {
+            font-size: 0.93rem;
+            color: var(--text-secondary);
+            line-height: 1.85;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+           <aside class="sidebar">
+    <div class="headshot-wrapper">
+        <img src="avaAngel.jpeg" alt="Ava Angel headshot">
+    </div>
+    <h1 class="sidebar-name">Ava Angel</h1>
+    <p class="sidebar-tagline">Aspiring Dental Professional</p>
+
+    <nav class="sidebar-nav">
+        <a href="index.html" data-tooltip="Home">
+            <i class="fa-solid fa-house"></i>
+            Home
+        </a>
+        <a href="resume.html" data-tooltip="Résumé">
+            <i class="fa-regular fa-file"></i>
+            Résumé
+        </a>
+        <a href="personalStatement.html" data-tooltip="Personal Statement">
+            <i class="fa-regular fa-address-book"></i>
+            Statement
+        </a>
+    </nav>
+
+    <div class="sidebar-divider"></div>
+
+    <div class="contact-block">
+        <h3>Contact</h3>
+        <div class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg>
+            <span>Rochester Hills, MI</span>
+        </div>
+        <div class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <a href="mailto:avaangel@umich.edu">avaangel@umich.edu</a>
+        </div>
+        <div class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.2 2.2z"/></svg>
+            <a href="tel:2483963057">(248) 396-3057</a>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Skills</h3>
+            <span class="skill-tag">Fluent in Spanish</span>
+            <span class="skill-tag">Microsoft Office</span>
+            <span class="skill-tag">Google Workspace</span>
+            <span class="skill-tag">R Programming</span>
+            <span class="skill-tag">Cloud9 Software</span>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Awards</h3>
+            <div class="award-item">University Honors</div>
+        </div>
+
+        <div class="sidebar-linkedin">
+            <h3>Connect</h3>
+            <a href="https://www.linkedin.com/in/kyle-angel-b171a81a1/" target="_blank" class="linkedin-link">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+</aside>
+
+        <main class="main-content">
+            <section class="section">
+                <h2 class="section-title">Statement of Purpose</h2>
+
+                <div class="statement-card" style="margin-top: 16px;">
+                    <div class="statement-card-label">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Introduction</span>
+                    </div>
+                    <p>I am a senior at the University of Michigan graduating with a Bachelor of Science in Biology, Health, and Society and Spanish. After my graduation, I plan to take a gap year and work as a dental assistant to continue to gain more clinical experience and strengthen my interpersonal skills before applying to dental school.</p>
+                </div>
+
+                <div class="statement-card">
+                    <div class="statement-card-label">
+                        <i class="fa-regular fa-eye"></i>
+                        <span>Shadowing Experience</span>
+                    </div>
+                    <p>Over the past several years, I have gained exposure to dentistry through shadowing, volunteering, and employment in the field. I have shadowed general dentists for over 100 hours and have observed a wide range of procedures, including fillings, crowns and bridges, and extractions. Through these experiences, I have also learned the importance of communication and implementing anxiety-reducing techniques to ensure that patients have the best possible experience.</p>
+                </div>
+
+                <div class="statement-card">
+                    <div class="statement-card-label">
+                        <i class="fa-solid fa-tooth"></i>
+                        <span>TDR Orthodontics</span>
+                    </div>
+                    <p>My role as a Sterilization Lab Technician and Records Assistant at TDR Orthodontics has provided me with hands-on clinical experience in a fast-paced environment. I independently managed sterilization protocols using ultrasonic cleaners, dry heat systems, and autoclaves, ensuring safety and efficiency in patient care. Additionally, I assisted with digital imaging and patient records, including capturing 3D scans using an iTero scanner, radiographs, and intraoral photographs. This position allowed me to understand the importance of sterilization while directly contributing to a clinical team.</p>
+                </div>
+
+                <div class="statement-card">
+                    <div class="statement-card-label">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>United We Smile</span>
+                    </div>
+                    <p>Through my volunteer work with United We Smile, I further expanded my understanding of dentistry in community-focused settings. I observed a variety of procedures, including extractions, pulpotomies, and denture deliveries, often for underserved populations. This experience taught me the importance of equitable access to care and furthered my understanding of anxiety-reducing techniques. I learned how to use nitrous oxide, local anesthesia, and sensory tools to make patients feel more at ease.</p>
+                </div>
+
+                <div class="statement-card">
+                    <div class="statement-card-label">
+                        <i class="fa-solid fa-people-group"></i>
+                        <span>Community & Campus Involvement</span>
+                    </div>
+                    <p>In addition to my clinical experiences, my involvement in campus and community organizations has strengthened my interpersonal skills. As a volunteer with an after-school program, I mentor students from diverse backgrounds and support their academic development, which has allowed me to build trusting relationships. Additionally, my engagement in Spanish Club has improved my ability to connect with Spanish-speaking individuals outside of a classroom setting, which is an essential skill to have when it comes to inclusive healthcare.</p>
+                </div>
+
+                <div class="statement-card">
+                    <div class="statement-card-label">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Looking Ahead</span>
+                    </div>
+                    <p>Overall, these experiences have grown my passion for dentistry and have made me feel more confident in a clinical setting. I am excited to continue working in the field of dentistry and being part of a great team.</p>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+    <script>
+        const links = document.querySelectorAll('.sidebar-nav a');
+        links.forEach(link => {
+            if (link.getAttribute('href') === location.pathname.split('/').pop() ||
+               (location.pathname.endsWith('/') && link.getAttribute('href') === 'index.html')) {
+                link.classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html>
